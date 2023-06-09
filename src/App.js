@@ -1,5 +1,5 @@
 import "./App.css";
-import Tarea from './componentes/Tarea';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       </div>
       <div className="main">
         <h1>Mis tareas</h1>
-        <Tarea texto="Aprender React" />
+       <ListaDeTareas/>
       </div>
     </div>
   );
